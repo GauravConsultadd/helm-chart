@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gauravbio/webapp-demo
-  tag: 02
+  repository: gcr.io/heptio-images/ks-guestbook-demo
+  tag: 0.1
   pullPolicy: IfNotPresent
 
 service:
